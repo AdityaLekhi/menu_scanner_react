@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background: #ffc9c9;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #e03131;
+  font-family: "McLaren";
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+span,
+nav {
+  color: #fff;
+  font-family: "Lato", cursive;
+  font-weight: 400;
+}
+
+nav {
+  list-style: none;
+  margin-left: auto;
+}
+nav li {
+  list-style: none;
+  margin-left: 30px;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 260px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.container {
+  background-color: #e03131;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.container:hover {
+  background-color: #c92a2a;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  color: #e03131;
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.menu {
+  transition: all 0.3s;
+}
+.menu:hover {
+  transform: scale(1.3);
+}
